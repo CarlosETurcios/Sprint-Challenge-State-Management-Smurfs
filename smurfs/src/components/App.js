@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./App.css";
-import { SmurfsList } from './SmurfsList'
-
+import SmurfsList from './SmurfsList'
+import SmurfForm from './SmurfForm'
 
 
 class App extends Component {
@@ -13,6 +13,7 @@ class App extends Component {
         <div>Start inside of your `src/index.js` file!</div>
         <div>Have fun!</div>
         <h1><SmurfsList /></h1>
+        <p><SmurfForm /></p>
       </div>
     );
   }
